@@ -20,6 +20,9 @@
 @property (nonatomic, copy) NSString *groupTag;
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 
+// Fleetlog addon
+@property (nonatomic, strong) UIButton *selectButton;
+
 /// Init with annotations
 /** Init cluster with containing annotations*/
 - (id)initWithAnnotation:(id<MKAnnotation>)annotation;
